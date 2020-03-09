@@ -1,0 +1,3 @@
+¿usted podría hacer esto sin llamar wait() en el padre?
+
+R: Si se puede, se utiliza la funcion sleep(4), y de esta manera aseguramos que el padre va a ejecutarse despues de tres segundos, asegurando primero el Hello al GoodBye. 
