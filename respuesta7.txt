@@ -1,0 +1,2 @@
+¿QUÉ PASA SI EL HIJO LLAMA PRINTF() PARA IMPRIMIR ALGUNA SALIDA DESPUÉS DE CERRAR EL DESCRIPTOR?
+Si se utiliza el printf después de cerrar la salida, no se imprime el mensaje de salida en la consola
