@@ -1,0 +1,5 @@
+¿PUEDEN EL PADRE Y EL HIJO ACCEDER AL FILE DESCRIPTOR RETORNADO POR OPEN()?
+a) Tanto como el padre y el hijo despues del llamada fork() logra acceder al el archivo sin ningun tipo de problema, lo que quire decir que el alcance de fd es tanto para el padre como para el hijo.
+
+¿QUÉ PASA SI ELLOS EMPIEZAN A ESCRIBIR EL ARCHIVO DE MANERA CONCURRENTE, ES DECIR, A LA MISMA VEZ?
+b) Pusimos a prueba la escritura en el archivo tanto desde el padre como del hijo y ambos pueden modificar el archivo sin ningun problema.
